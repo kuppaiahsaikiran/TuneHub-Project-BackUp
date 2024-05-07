@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Playlist Page</title>
+<link rel="stylesheet" type="text/css" href="createplaylist.css">
+</head>
+<body>
+    <img id="mg-1" src="Tunehub logo-3.png" alt="Image Description"   width="90px" height="90px">
+<center>
+<h2>MUSIC IS THE KEY TO UNLOCK YOUR EMOTIONS</h2>
+<h4>FIND YOUR RHYTHM, FIND YOUR PURPOSE</h4>
+	 <div class="div-1">
+	 
+	 <h1>CREATING PLAYLIST</h1>
+	 <form action="addplaylist" method="post">
+	 
+	 <label>PLAYLIST NAME:</label>
+	 <input type="text" name="name">
+	 <br>
+	 <div th:each="song:${songs}">
+	 <input type="checkbox" th:name="songs" th:value="${song.id}">
+	 
+	 
+	 <!-- This Line is fetching songs with column names that are ex: genre ,name,link etc -->
+	 <label th:text="${song.name}"></label>
+	 
+	 
+	 </div>
+	 <input type="submit" value="ADD PLAYLIST">
+	 
+	 
+	 </form>
+    </div>
+</center>
+
+
+</body>
+</html>

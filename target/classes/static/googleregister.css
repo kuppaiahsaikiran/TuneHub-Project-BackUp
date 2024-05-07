@@ -1,0 +1,101 @@
+@charset "ISO-8859-1";
+
+
+
+input {
+    color: green; 
+    background-color:  #ffffcc; 
+    border: 2px solid #ff8080; 
+    padding: 8px; 
+    border-radius: 4px; 
+}
+
+input:focus {
+    background-color: #bedce7; 
+}
+/* 
+textarea{
+	color: blue;
+    background-color: #ffffcc; 
+    border: 2px solid #ff8080; 
+    padding: 8px; 
+    border-radius: 4px; 
+}
+
+textarea:focus{
+	 background-color: #bedce7;
+} */
+.div-1 {
+	background-color: rgba(255, 255, 255, 0.2);
+	width: 300px;
+	height: auto;
+	padding: 25px;
+	border: 3px solid indigo; 
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+body {
+background-image: url("register background-3.jpg");
+font-family: Arial, sans-serif;
+	width: 98%;
+	height: auto;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	}
+button {
+  background-color: rgb(43, 167, 39); 
+  color: white;
+  padding: 5px 20px;
+  border-radius: 5px;
+	font-size: 16px;
+  transition-duration: 0.1s;
+}
+button:hover {
+  background-color: #008000
+; 
+}
+#mg-1{
+	border-radius: 50%;
+	margin-bottom: -90px;
+	position: fixed;
+}
+
+
+
+#mg-2{
+	margin-top: -30%;
+		margin-bottom: -9%;
+	
+}
+label{
+	color:#d0c602; 
+}
+
+
+h2{
+	color:#d0c602; 
+}
+
+a{
+	color: #ff6868;
+}
+h5{
+	color: #d0c602; 
+}
+h1{
+	color: #eea700;
+		font-style: italic;
+		margin-left: 22%;
+		
+	
+}
+
+h4{
+	color: #ffb811;
+	margin-left: 45%;
+	margin-top: -1%;
+	font-style: italic;
+}

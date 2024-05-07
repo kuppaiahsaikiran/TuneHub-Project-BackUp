@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CUSTOMER HOME</title>
+<link rel="stylesheet" type="text/css" href="customerhome.css">
+</head>
+<body>
+<div id="div-1">
+    <img id="mg-1" src="Tunehub logo-3.png" alt="Image Description"   width="90px" height="90px">
+    <h2>TUNEHUB MUSIC</h2>
+
+		<h4>MAKE IT MELODY</h4>
+		</div>
+
+<center>
+	
+
+
+	
+
+<div th:unless="${ispremium}" class="non-premium">
+	<form action="pay">
+	
+	<p>Hello User! It is Unfortunate to see that You're not Subscribed TuneHub. </p>
+<p>Want to try Get Premium Now And Enjoy Unlimited Music With TuneHub.</p>
+<p>Be a Subscriber And Be a Part of TuneHub <br> Thank You Happy Music</p>
+
+<div id="div-2">
+		<input type="submit" value="GET PREMIUM NOW">
+	</form>
+	<br>
+	
+	<h1>After Completing Premium Process Please Logout and Relogin With Your Customer Details You'll Get Unlimited Music</h1>
+	<form action="logout">
+		<input type="submit" value="LOGOUT">
+	</form>
+</div>
+</div>
+
+<div id="div-3">
+<form action="logout"  id="lg-1">
+		<input type="submit" value="LOGOUT">
+	</form>
+<div th:if="${ispremium}" class="premium">
+	<table border="1">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Artist</th>
+					<th>Genre</th>
+					<th id="play">Play</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each="s:${songs}">
+				<td th:text="${s.name}"></td>
+				<td th:text="${s.artist}"></td>
+				<td th:text="${s.genre}"></td>
+				
+				<td>
+					<audio controls>
+						<source th:src="${s.link}">
+					</audio>
+				 </td>
+				 
+				</tr>
+			</tbody>
+	</table>
+</div>
+</div>
+</center>
+</body>
+</html>

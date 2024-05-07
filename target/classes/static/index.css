@@ -1,0 +1,130 @@
+@charset "ISO-8859-1";
+
+
+p{
+	color:rgb(255, 255, 0);
+}
+.div-1 {
+	background-color: rgba(255, 255, 255, 0.4);
+	width: 250px;
+	height: auto;
+	padding: 25px;
+		border: 2px solid indigo; 
+		
+	
+	
+}
+form{
+	margin-top: -15%;
+}
+.form{
+		margin-top: -20%;
+	
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-image: url("index img bg.jpg");
+	width: 98%;
+	height: auto;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#mg-1 {
+	border-radius: 60px;
+	margin-bottom: -80px;
+	  position: fixed;
+	
+}
+#mg-2{
+	margin-right: -125%;
+	margin-top: -20%;
+	margin-bottom: -10%;
+}
+#mg-3{
+	margin-left: -80%;
+	margin-top: -50%;
+	margin-bottom: 5%;
+}
+
+.signup, .login {
+	background-color: #008000;
+	color: white;
+	border-radius: 5px;
+	font-size: 16px;
+	transition: background-color 0.3s ease;
+}
+
+button {
+	    padding: 6px 20px;
+	
+	
+	margin: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.login {
+
+ 
+  background-color: #006de6;
+    
+ 
+ }
+
+.google {
+	background-color: #DB4437;
+	color: white;
+}
+
+.facebook {
+	background-color: #3B5998;
+	color: white;
+}
+
+.apple {
+	background-color: #000;
+	color: white;
+}
+
+.signup:hover, .google:hover, .facebook:hover, .apple:hover, .login:hover
+	{
+	opacity: 0.7;
+}
+
+
+
+h1{
+	color: #e950ed;
+			font-style: italic;
+	
+}
+
+h4{
+	color: #e950ed;
+	margin-left: 35%;
+	margin-top: -2%;
+			font-style: italic;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
