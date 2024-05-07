@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 2px;
+        text-align: left;
+        border-bottom: 1px solid #ff8000;
+    }
+    th {
+        background-color: #80ff00;
+    }
+    audio {
+        width: 100%;
+    }
+    #play{
+    
+    width: 30%;
+    }
+    
+#mg-1 {
+	border-radius: 50%;
+}
+
+div{
+	display: flex;
+}
+h1{
+	color: #8ebb33;
+		font-style: italic;
+		margin-left: 3%;
+}
+
+h4{
+	color: #e1ba1e;
+margin-bottom:-150%;
+	font-style: italic;
+	
+}

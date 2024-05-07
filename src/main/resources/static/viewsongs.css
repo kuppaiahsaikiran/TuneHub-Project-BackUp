@@ -1,0 +1,98 @@
+/* @charset "ISO-8859-1";
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ff0080;
+    }
+    th {
+        background-color: #408080;
+    }
+    tr:nth-child(even) {
+        background-color: #00ff80;
+    }
+    tr:nth-child(odd) {
+        background-color: #ff00ff;
+    }
+    .name {
+        color: #1abc9c; Turquoise
+    }
+    .artist {
+        color: #e74c3c; Alizarin
+    }
+    .genre {
+        color: #3498db; Peter River
+    }
+    .play {
+        color: #ff0000; Amethyst
+    }
+    
+#mg-1 {
+	border-radius: 50%;
+}
+div{
+		display: flex;
+	
+}
+
+h1{
+	color: #8ebb33;
+		font-style: italic;
+		margin-left: 3%;
+}
+
+h4{
+	color: #e1ba1e;
+margin-bottom:-150%;
+	font-style: italic;
+	
+}
+
+ */
+ 
+ 
+ @charset "ISO-8859-1";
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 2px;
+        text-align: left;
+        border-bottom: 1px solid #ff8000;
+    }
+    th {
+        background-color: #80ff00;
+    }
+    audio {
+        width: 100%;
+    }
+    #play{
+    
+    width: 30%;
+    }
+    
+#mg-1 {
+	border-radius: 50%;
+}
+
+div{
+	display: flex;
+}
+h1{
+	color: #8ebb33;
+		font-style: italic;
+		margin-left: 3%;
+}
+
+h4{
+	color: #e1ba1e;
+margin-bottom:-150%;
+	font-style: italic;
+	
+}
+ 

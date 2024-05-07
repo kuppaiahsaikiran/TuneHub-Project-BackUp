@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>View Playlist Page</title>
+<link rel="stylesheet" type="text/css" href="viewplaylist.css">
+</head>
+<body>
+    <div>
+    
+    <img id="mg-1" src="Tunehub logo-3.png" alt="Image Description"   width="90px" height="90px">
+
+<h1>TUNEHUB MUSIC</h1>
+
+		<h4>MAKE IT MELODY</h4>
+		</div>
+	<table border="1">
+		<thead>
+			<tr>
+				<th>Id</th>
+				<th>Playlist Name</th>
+				<th>Song Name</th>
+
+				<th id="play">Play</th>
+
+
+
+
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:each="playlist:${playlists}">
+				<td th:text="${playlist.id}"></td>
+
+				<td th:text="${playlist.name}"></td>
+				<td>
+
+					<ol>
+						<li th:each="song:${playlist.songs}"><span
+							th:text="${song.name}"></span> 
+							<!-- <audio controls>
+								<source th:src="${song.link}" type="audio/mpeg">
+							</audio> -->
+							</li>
+
+
+					</ol>
+
+				</td>
+				<td>
+					<!-- Column for song controls -->
+					<ol>
+						<li th:each="song:${playlist.songs}">
+							<!-- Audio controls for each song -->
+							 <audio controls>
+								<source th:src="${song.link}" type="audio/mpeg">
+							</audio>
+						</li>
+					</ol>
+				</td>
+
+
+
+
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
